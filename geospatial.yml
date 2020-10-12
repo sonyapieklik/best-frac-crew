@@ -1,0 +1,35 @@
+name: geospatial
+channels:
+    - conda-forge
+dependencies:
+    #base packages
+    - python=3.6
+    - anaconda
+    - numpy
+    - matplotlib
+    - seaborn
+    - jupyter
+    - jupyterlab
+    - pillow
+    - pydot
+    - h5py
+    - panel
+    #spatial, statistics and data handling
+    - geopandas
+    - cartopy
+    - rasterio
+    - contextily
+    - pysal
+    - verde
+    - statsmodels
+    - dask
+    - tqdm
+    - opencv
+    #things that need pip
+    - pip
+    - pip:
+      - missingno
+      - sklearn
+      - hurst
+      - xgboost
+      - glob3
